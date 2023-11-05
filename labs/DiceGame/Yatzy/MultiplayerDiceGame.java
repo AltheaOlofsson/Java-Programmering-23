@@ -56,7 +56,7 @@ public class MultiplayerDiceGame {
 
     }   static boolean checkYatzy(ArrayList<Die> dieList){
             for (Die e : dieList){
-                if (e.getValue() != dieList.get(0).getValue()){
+                if (e.getValue() != dieList.get([0]).getValue()){
                     return false;
                 } 
             } return true;
