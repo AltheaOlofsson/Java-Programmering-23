@@ -54,6 +54,16 @@ public class CalculatorExerciseTest {
         Assertions.assertTrue(actual);
 
     }
+    @Test
+    public void returnFalseIfNotEven(){
+        //setUp
+        int a = 7;
+        //CUT
+        boolean actual = calculator.isEven(a);
+
+        //Assertions
+        Assertions.assertFalse(actual);
+    }
 
     @Test
     public void returnLengthOfTwoStrings(){

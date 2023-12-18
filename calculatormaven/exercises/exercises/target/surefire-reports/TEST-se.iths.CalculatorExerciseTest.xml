@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="se.iths.CalculatorExerciseTest" time="0.216" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="se.iths.CalculatorExerciseTest" time="0.297" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="20"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="GB"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-20\bin"/>
-    <property name="sun.java.command" value="C:\Users\Althea\AppData\Local\Temp\surefire88718331839636379\surefirebooter-20231218102838782_3.jar C:\Users\Althea\AppData\Local\Temp\surefire88718331839636379 2023-12-18T10-28-38_211-jvmRun1 surefire-20231218102838782_1tmp surefire_0-20231218102838782_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Althea\AppData\Local\Temp\surefire10540709328992073540\surefirebooter-20231218111500595_3.jar C:\Users\Althea\AppData\Local\Temp\surefire10540709328992073540 2023-12-18T11-15-00_069-jvmRun1 surefire-20231218111500595_1tmp surefire_0-20231218111500595_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="c:\javalocal\KursRepo\Java-Programmering-23\calculatormaven\exercises\exercises\target\test-classes;c:\javalocal\KursRepo\Java-Programmering-23\calculatormaven\exercises\exercises\target\classes;C:\Users\Althea\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.1\junit-jupiter-engine-5.9.1.jar;C:\Users\Althea\.m2\repository\org\junit\platform\junit-platform-engine\1.9.1\junit-platform-engine-1.9.1.jar;C:\Users\Althea\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Althea\.m2\repository\org\junit\platform\junit-platform-commons\1.9.1\junit-platform-commons-1.9.1.jar;C:\Users\Althea\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.1\junit-jupiter-api-5.9.1.jar;C:\Users\Althea\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Althea\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.1\junit-jupiter-params-5.9.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Althea\AppData\Local\Temp\surefire88718331839636379\surefirebooter-20231218102838782_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Althea\AppData\Local\Temp\surefire10540709328992073540\surefirebooter-20231218111500595_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="20.0.2+9-78"/>
@@ -59,8 +59,9 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="64.0"/>
   </properties>
-  <testcase name="onePlusOneEqualsTwo" classname="se.iths.CalculatorExerciseTest" time="0.117"/>
-  <testcase name="fivePlusThreeDividedByTwoIsFour" classname="se.iths.CalculatorExerciseTest" time="0.009"/>
-  <testcase name="returnLengthOfTwoStrings" classname="se.iths.CalculatorExerciseTest" time="0.003"/>
-  <testcase name="returnTrueIfIntIsEven" classname="se.iths.CalculatorExerciseTest" time="0.004"/>
+  <testcase name="onePlusOneEqualsTwo" classname="se.iths.CalculatorExerciseTest" time="0.166"/>
+  <testcase name="fivePlusThreeDividedByTwoIsFour" classname="se.iths.CalculatorExerciseTest" time="0.006"/>
+  <testcase name="returnLengthOfTwoStrings" classname="se.iths.CalculatorExerciseTest" time="0.007"/>
+  <testcase name="returnTrueIfIntIsEven" classname="se.iths.CalculatorExerciseTest" time="0.005"/>
+  <testcase name="returnFalseIfNotEven" classname="se.iths.CalculatorExerciseTest" time="0.005"/>
 </testsuite>
