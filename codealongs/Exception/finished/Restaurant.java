@@ -22,6 +22,7 @@ public class Restaurant {
         try {benkesKorvKiosk.setRating(3.8);}
         catch (IllegalArgumentException e) {System.out.println(e.getMessage());}
 
+
     }
 }
 
